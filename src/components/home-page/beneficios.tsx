@@ -6,32 +6,32 @@ const Beneficios = () => {
         {
             title: "Justiça e Ética",
             description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            icon: "/shield-icon.svg"
         },
         {
-            title: "Justiça e Ética",
-            description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            title: "Confidencialidade Completa",
+            description: "Coleta anônima de feedback protege stakeholders enquanto garante insights honestos e imparciais",
+            icon: "/eye-icon.svg"
         },
         {
-            title: "Justiça e Ética",
-            description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            title: "Insights Reais",
+            description: "Análise com IA revela padrões genuínos enquanto filtra expectativas que promovem burnout ou são prejudiciais à saúde mental",
+            icon: "/bulb-icon.svg"
         },
         {
-            title: "Justiça e Ética",
-            description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            title: "Orientado por Stakeholders",
+            description: "Avaliações baseadas na sabedoria coletiva de pares, gestores e membros da equipe que entendem o cargo",
+            icon: "/people-group-icon.svg"
         },
         {
-            title: "Justiça e Ética",
-            description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            title: "Eficiente no Tempo",
+            description: "Automatize o processo complexo de criar avaliações justas, economizando centenas de horas das equipes de RH",
+            icon: "/stopwatch-icon.svg"
         },
         {
-            title: "Justiça e Ética",
-            description: "Baseado nos princípios de Christophe Dejours, garantindo que as avaliações respeitem a dignidade humana e promovam o bem-estar psicológico",
-            icon: "/mail-icon.svg"
+            title: "Personalizado e Escalável",
+            description: "Formulários de avaliação sob medida para qualquer cargo, desde cargos iniciantes até executivos, em todos os departamentos",
+            icon: "/user-circle-gear-icon.svg"
         },
     ]
 

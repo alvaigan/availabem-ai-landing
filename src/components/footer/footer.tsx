@@ -37,7 +37,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex flex-row justify-between border-t-[1.5px] border-gray-300 pt-5">
-                    <div>© 2024 AvaliaBem-AI. All rights reserved</div>
+                    <div>Design feito por Autonomous Intelligence</div>
+                    <div>© 2024 AvailaBem-AI. All rights reserved</div>
                     <div className="flex flex-row gap-2">
                         <div>Termos e Condições</div>
                         <div className="text-gray-300">|</div>

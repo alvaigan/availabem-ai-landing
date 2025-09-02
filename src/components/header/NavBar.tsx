@@ -1,6 +1,7 @@
 import Image from "next/image"
 import NavMenu from "./NavMenu"
 import { Button } from "../ui/button"
+import Link from "next/link"
 
 const NavBar = () => {
 
@@ -26,8 +27,8 @@ const NavBar = () => {
             </div>
             <NavMenu items={navItems} />
             <div className="flex flex-row gap-2">
-                <Button variant="outline">Entrar</Button>
-                <Button variant="default">Comçar</Button>
+                <Link  href="/entrar"><Button variant="outline" size={"lg"}>Entrar</Button></Link>
+                <Link href="/registrar"><Button variant="default" size={"lg"}>Comçar</Button></Link>
             </div>
         </div>
     )
