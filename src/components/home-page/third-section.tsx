@@ -10,7 +10,7 @@ const ThirdSection = () => {
             <div className="absolute top-20 -right-50 w-[438px] h-[438px] bg-[#01ADEC] rounded-full blur-[80px] opacity-30 z-0"></div>
 
             <div className="flex flex-col mt-35 mx-30 z-10 relative">
-                <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-col sm:flex-col md:flex-row items-center justify-between text-center sm:text-center md:text-left">
                     <div className="flex flex-col">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-6">
                             Como Funciona

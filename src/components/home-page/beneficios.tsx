@@ -37,7 +37,7 @@ const Beneficios = () => {
 
     return (
         <div className="w-full h-[600px]">
-            <div className="grid grid-cols-3 mx-80">
+            <div className="grid grid-cols-3 mx-80 hidden sm:hidden md:grid">
                 {beneficios.map((beneficio, index) => {
                     return (
                         <div key={index} className="pt-10 pb-25 px-5 hover:shadow-2xl hover:shadow-[#91FF9A] transition-all duration-300 border border-sm border-gray-300 cursor-pointer">

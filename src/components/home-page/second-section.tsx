@@ -4,7 +4,7 @@ import FeaturesTimeline from "./features-timeline";
 
 const SecondSection = () => {
   return (
-    <section id="recursos" className="h-full bg-white relative scroll-mt-20">
+    <section id="recursos" className="h-full bg-white relative scroll-mt-20 flex flex-col items-center justify-center">
       {/*  gradient blur component */}
       <div className="absolute -top-5 -left-100 w-[670px] h-[670px] bg-[#01ADEC] rounded-full blur-[80px] opacity-50"></div>
 
@@ -22,7 +22,6 @@ const SecondSection = () => {
         </div>
       </div>
       <FeaturesTimeline />
-
     </section>
   );
 };
