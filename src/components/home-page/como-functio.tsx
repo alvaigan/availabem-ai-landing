@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const ComoFunciona = () => {
     return (
-        <div className="my-40 relative">
+        <div className="my-10 lg:my-30 relative">
             <Image
                 src="/linewave.svg"
                 alt="Logo"
                 width={0}
                 height={0}
-                className="w-full h-auto absolute z-0 left-0 -top-15 scale-75"
+                className="w-full h-auto absolute z-0 left-0 -top-15 scale-75 hidden sm:hidden md:hidden lg:block"
                 priority
                 fetchPriority="high"
             />
-            <div className="flex flex-row items-center justify-center text-center gap-10 z-10 relative">
+            <div className="flex flex-col sm:flex-col md:flex-row justify-center text-center gap-10 z-10 relative">
                 <div className="flex flex-col items-center gap-2">
                     <div className="w-20 h-20 bg-gradient-to-br from-[#0085FF] to-[#91FF9A] rounded-3xl flex flex-col items-center justify-center mb-5 shadow-2xl shadow-[#9672FF]">
                         <Image

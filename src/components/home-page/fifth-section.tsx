@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 const FifthSection = () => {
   return (
     <section className="h-[200px] relative scroll-mt-20 flex items-center justify-center">
-      <div className="absolute w-[80%] top-10 h-[340px] bg-gradient-to-br from-[#B6E3FB] to-[#72AAFC] z-10 mx-30 rounded-2xl overflow-hidden">
+      <div className="absolute w-[95%] sm:w-[90%] lg:w-[80%] top-10 h-[340px] bg-gradient-to-br from-[#B6E3FB] to-[#72AAFC] z-10 mx-30 rounded-2xl overflow-hidden">
         <Image
           src="/bg-image-panel.svg"
           alt="Background Image"
@@ -14,7 +14,7 @@ const FifthSection = () => {
           priority
           fetchPriority="high"
         />
-        <div className="flex flex-col items-center justify-center mt-15 text-center">
+        <div className="flex flex-col items-center justify-center mt-15 text-center mx-5">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-6">
             Pronto para revolucionar suas <br /> avaliações de RH?
           </h1>

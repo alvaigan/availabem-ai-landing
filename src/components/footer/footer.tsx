@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="pt-30 pb-20 sm:px-10 md:px-30 flex flex-col hidden sm:hidden md:flex">
         <div className="flex flex-row mb-20">
           <div className="flex-grow">
-            <div className="flex flex-col w-1/4">
+            <div className="flex flex-col w-full lg:w-1/2">
               <div>
                 <Image
                   src="/logo.png"
@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-between border-t-[1.5px] border-gray-300 pt-5">
+        <div className="flex flex-row justify-between border-t-[1.5px] border-gray-300 pt-5 text-sm">
           <div>Design feito por Autonomous Intelligence</div>
           <div>© 2024 AvailaBem-AI. All rights reserved</div>
           <div className="flex flex-row gap-2">
@@ -83,8 +83,7 @@ const Footer = () => {
       </div>
 
       {/* Mobile */}
-
-      <div className="pt-5 pb-10 px-10 flex flex-col sm:flex md:hidden">
+      <div className="pt-5 pb-10 px-10 flex flex-col sm:flex md:hidden text-xs">
         <div className="flex flex-col mb-20">
           <div className="flex flex-col mb-5">
             <div>

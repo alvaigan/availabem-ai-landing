@@ -13,7 +13,7 @@ const HeroSection = () => {
                 alt="Logo"
                 width={0}
                 height={0}
-                className="absolute w-full h-auto -bottom-1 md:object-fill sm:object-none sm:scale-200 md:scale-100 sm:object-center"
+                className="absolute w-full h-auto -bottom-1 object-cover md:object-cover sm:object-none sm:scale-200 md:scale-100 sm:object-center"
                 priority
                 fetchPriority="high"
             />

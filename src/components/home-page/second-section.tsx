@@ -6,9 +6,9 @@ const SecondSection = () => {
   return (
     <section id="recursos" className="h-full bg-white relative scroll-mt-20 flex flex-col items-center justify-center">
       {/*  gradient blur component */}
-      <div className="absolute -top-5 -left-100 w-[670px] h-[670px] bg-[#01ADEC] rounded-full blur-[80px] opacity-50"></div>
+      <div className="absolute -top-5 -left-100 w-[670px] h-[670px] bg-[#01ADEC] rounded-full blur-[80px] opacity-50 z-0"></div>
 
-      <div className="flex flex-col mt-35 items-center justify-center text-center">
+      <div className="flex flex-col mt-35 items-center justify-center text-center mx-5 z-10">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-6">
           Otimize o Ecossistema de Feedback
           <br />
