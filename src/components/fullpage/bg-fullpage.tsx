@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BgFullpage = () => {
     return (
-        <div className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden">
+        <div className="fixed top-0 left-0 w-full min-h-screen z-0 overflow-hidden">
             {/*  gradient blur component */}
             <div className="absolute -bottom-50 -left-50 w-[670px] h-[670px] bg-[#01ADEC] rounded-full blur-[80px] opacity-20"></div>
 

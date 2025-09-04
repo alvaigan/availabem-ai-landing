@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -26,10 +27,10 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-4 text-sm mx-20">
             <div className="font-medium text-base">Empresa</div>
-            <div>Início</div>
-            <div>Recursos</div>
-            <div>Como Funciona</div>
-            <div>Benefícios</div>
+            <Link href="#início" className="hover:text-bold hover:text-gray-500">Início</Link>
+            <Link href="#recursos" className="hover:text-bold hover:text-gray-500">Recursos</Link>
+            <Link href="#como-funciona" className="hover:text-bold hover:text-gray-500">Como Funciona</Link>
+            <Link href="#beneficios" className="hover:text-bold hover:text-gray-500">Benefícios</Link>
           </div>
           <div className="flex flex-col gap-4 text-sm mx-20">
             <div className="font-medium text-base">Contato</div>
@@ -159,7 +160,7 @@ const Footer = () => {
             <div className="text-gray-300">|</div>
             <div>Política de Privacidade</div>
           </div>
-          <div>© 2024 AvailaBem-AI. All rights reserved</div>
+          <div>© 2025 AvailaBem-AI. All rights reserved</div>
           <div>Design feito por Autonomous Intelligence</div>
         </div>
       </div>

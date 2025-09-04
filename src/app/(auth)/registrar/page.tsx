@@ -25,7 +25,7 @@ import Link from "next/link";
 
 const Registrar = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-white p-4">
+        <div className="relative min-h-screen w-full flex items-center justify-center bg-white p-4">
             <BgFullpage />
             <div className="flex flex-col justify-center items-center w-100 z-10">
                 <Link href="/">
@@ -34,7 +34,7 @@ const Registrar = () => {
                         alt="Logo"
                         width={236}
                         height={0}
-                        className="mb-8"
+                        className="mb-8 mt-5"
                         priority
                         fetchPriority="high"
                     />{" "}

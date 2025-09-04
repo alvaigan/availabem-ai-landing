@@ -60,7 +60,7 @@ const Beneficios = () => {
                             <div className="w-20 h-20 bg-gradient-to-br from-[#0085FF] to-[#91FF9A] rounded-3xl flex flex-col items-center justify-center mb-5 shadow-2xl shadow-[#9672FF]">
                                 <Image src={beneficio.icon} alt="Logo" width={0} height={0} className="w-10 h-10" priority fetchPriority="high" />
                             </div>
-                            <h2 className="font-semibold text-xl">{beneficio.title}</h2>
+                            <h2 className="font-semibold text-xl mt-10 mb-5">{beneficio.title}</h2>
                             <p>{beneficio.description}</p>
                         </div>
                     )

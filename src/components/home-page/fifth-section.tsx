@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const FifthSection = () => {
   return (
@@ -10,11 +11,11 @@ const FifthSection = () => {
           alt="Background Image"
           width={0}
           height={0}
-          className="absolute size-full md:object-cover sm:object-none sm:scale-200 md:scale-100 sm:object-center"
+          className="absolute size-full md:object-cover sm:object-none sm:scale-200 md:scale-100 sm:object-center z-0"
           priority
           fetchPriority="high"
         />
-        <div className="flex flex-col items-center justify-center mt-15 text-center mx-5">
+        <div className="relative flex flex-col items-center justify-center mt-15 text-center mx-5 z-10">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium mb-6">
             Pronto para revolucionar suas <br /> avaliações de RH?
           </h1>
@@ -25,9 +26,11 @@ const FifthSection = () => {
               organizacional
             </p>
           </div>
-          <Button variant="outline" size="lg">
-            Ver Demonstração
-          </Button>
+          <Link href="/demo">
+            <Button variant="outline" size="lg">
+              Ver Demonstração
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
