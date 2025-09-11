@@ -2,19 +2,16 @@ import BgFullpage from "@/components/fullpage/bg-fullpage";
 import { Button } from "@/components/ui/button";
 import {
     Card,
-    CardAction,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
-    CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Label } from "@radix-ui/react-label";
+import { Label } from "@/components/ui/label";
 import Image from "next/image";
 import Link from "next/link";
 
-const Entrar = () => {
+const EsqueciMinhaSenha = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-white p-4">
             <BgFullpage />
@@ -33,23 +30,25 @@ const Entrar = () => {
 
                 <Card className="w-full">
                     <CardHeader>
-                        <div className="flex flex-col justify-center items-center">
-                            <div className="w-12 h-12 bg-gray-100 rounded-full flex flex-col items-center justify-center mb-2">
+                        <div className="flex flex-col">
+                            <Link
+                                href="/entrar"
+                                className="w-8 h-8 flex flex-col items-center justify-center mb-2 cursor-pointer"
+                            >
                                 <Image
-                                    src="/sign-in-icon.svg"
+                                    src="/arrow-back-icon.svg"
                                     alt="Logo"
                                     width={0}
                                     height={0}
-                                    className="w-6 h-6"
+                                    className="w-full"
                                     priority
                                     fetchPriority="high"
                                 />
-                            </div>
-                            <h1 className="text-2xl font-bold pt-4">
-                                Faça login na sua conta
-                            </h1>
-                            <p className="text-sm text-center pt-4">
-                                Acesse sua conta ou cadastre-se para começar
+                            </Link>
+                            <h1 className="text-2xl font-bold pt-4">Esqueci minha senha</h1>
+                            <p className="text-sm pt-4">
+                                Digite seu e-mail para o processo de verificação, enviaremos um
+                                código de 4 dígitos para o seu e-mail
                             </p>
                         </div>
                     </CardHeader>
@@ -65,41 +64,20 @@ const Entrar = () => {
                                         required
                                     />
                                 </div>
-                                <div className="grid gap-2">
-                                    <div className="flex items-center">
-                                        <Label htmlFor="password">Senha</Label>
-                                        <Link
-                                            href="/esqueci-minha-senha"
-                                            className="ml-auto inline-block text-sm underline-offset-4 hover:underline text-blue-600"
-                                        >
-                                            Esqueceu a senha?
-                                        </Link>
-                                    </div>
-                                    <Input id="password" type="password" required />
-                                </div>
                             </div>
                         </form>
                     </CardContent>
                     <CardFooter className="flex-col gap-2">
-                        <Button type="submit" className="w-full">
-                            Entrar
-                        </Button>
+                        <Link href="/esqueci-minha-senha/verificar" className="w-full">
+                            <Button type="submit" className="w-full cursor-pointer">
+                                Entrar
+                            </Button>
+                        </Link>
                     </CardFooter>
                 </Card>
-                <div>
-                    <p className="text-sm text-center pt-4">
-                        Ainda não tem uma conta? &nbsp;
-                        <Link
-                            href="/registrar"
-                            className="ml-auto inline-block text-sm underline-offset-4 hover:underline text-blue-600"
-                        >
-                            Cadastre-se
-                        </Link>
-                    </p>
-                </div>
             </div>
         </div>
     );
 };
 
-export default Entrar;
+export default EsqueciMinhaSenha;
